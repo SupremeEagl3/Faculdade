@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aba muito foda</title>
+</head>
+<body>
+    
+    <!-- Titulo principal da pagina -->
+    <h1> Exemplo de elementos HTML</h1>
+
+    <h2>Elementos Multimídias</h2>
+    
+    <!--Imagem -->
+    <img src="blue.jpg" alt="O homem mais foda do mundo" width="500" height="300">
+
+    <!--Video -->
+    <iframe width="100" height="315" src="https://www.youtube.com/embed/8Ajna_oOQts?si=KgIroCAjoa599qBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <video controls>
+        <source src="vid.mp4" type="video/mp4" >
+    
+    <!-- audio -->
+     <audio controls>
+        <source src="estourado.mp3" type="audio/mp3">
+     </audio>
+
+ <!-- Tabelas -->
+ <h2> Exemplo de tabela</h2>
+ <table border="3">
+    <thead>
+        <tr>
+            <th> Nome </th>
+            <th> Idade </th>
+            <th> Profissão </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td> João </td>
+            <td>25</td>
+            <td>Garoto de Programa</td>
+        </tr>
+        <tr>
+          <td>Lucas</td>
+          <td>30</td>
+          <td>Vadio</td>
+        </tr>
+
+    </tbody>
+ </table>
+</body>
+</html>
